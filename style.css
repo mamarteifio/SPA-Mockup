@@ -1,10 +1,14 @@
 /*Document Styling*/
+:root {
+  --main-accent: forestgreen;
+}
 html {
   margin: 0px;
   padding: 0px;
 }
 body {
   background: #ffffff;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
   font-size: 20px;
   margin: 0px;
   padding: 0px;
@@ -18,7 +22,7 @@ main {
 
 /*Footer Navication*/
 footer#nav-footer {
-  background: #ccc; 
+  background: #eee; 
 }
 footer#nav-footer>ul{
   list-style-type: none;
@@ -30,6 +34,19 @@ footer#nav-footer>ul>li {
   padding: 0px;
 }
 footer#nav-footer>ul>li>a {
+  color: #333;
+  display: flex;
+  font-size: 12px;
+  flex-direction: column;
   margin: 0px;
   padding: 12px;
+  text-decoration: none;
+}
+footer#nav-footer>ul>li>a.active {
+  
+}
+footer#nav-footer>ul>li>a>i.la {
+  font-size: 32px;
+  margin: 0px;
+  padding: 0px;
 }
