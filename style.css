@@ -1,0 +1,16 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: #ffffff;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+  outline: 1px solid red;
+}
+main {
+  background: #eeeeee;
+  margin: 0;
+  padding: 0;
+}
