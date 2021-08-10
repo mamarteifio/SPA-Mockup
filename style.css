@@ -25,27 +25,41 @@ main {
   margin: 0px;
   padding: 0px;
 }
-
+h1 {
+  color: black;
+  font-family: "Atkinson Hyperlegible", serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin: 5px 0px;
+  padding: 0px;
+}
+h2 {
+  color: black;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 5px 0px;
+  padding: 0px;
+}
 /*Section Styling */
 section.screen-section {
   margin: 0px;
   padding: 12px;
   outline: 1px solid magenta;
 }
-h2 {
-  color: black;
-  font-family: "Atkinson Hyperlegible", serif;
-  font-size: 42px;
-  font-weight: 400;
-  margin: 5px 0px;
-  padding: 0px;
+section.app-section {
+  padding: 5px;
 }
-h3 {
-  color: black;
-  font-family: "Atkinson Hyperlegible", serif;
-  font-size: 32px;
-  font-weight: 400;
+.app-list {
+  
 }
+.app-list-item {
+  
+}
+.app-list-item > a {
+  
+}
+
 .primary-button {
   background: var(--main-accent-color);
   border: none;
@@ -56,6 +70,9 @@ h3 {
   font-weight: 700;
   margin: 0px;
   padding: 6px 12px;
+}
+.primary-button:hover {
+  outline: 1px solid rgba(0,0,0,0.5)
 }
 
 /*Footer Navication*/
@@ -91,7 +108,8 @@ footer#nav-footer > ul > li > a {
   margin: 0px;
   padding: 12px;
   text-decoration: none;
-}footer#nav-footer > ul > li > a:hover {
+}
+footer#nav-footer > ul > li > a:hover {
   color: black;
 }
 footer#nav-footer > ul > li > a.active {
