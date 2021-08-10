@@ -16,6 +16,7 @@ body {
   background: #ffffff;
   font-family: "Atkinson Hyperlegible", sans-serif;
   font-size: 20px;
+  font-weight: 400;
   margin: 0px;
   padding: 0px;
 }
@@ -33,12 +34,28 @@ section.screen-section {
 }
 h2 {
   color: black;
-  font-size: 40px;
+  font-family: "Atkinson Hyperlegible", serif;
+  font-size: 42px;
+  font-weight: 400;
   margin: 5px 0px;
   padding: 0px;
 }
+h3 {
+  color: black;
+  font-family: "Atkinson Hyperlegible", serif;
+  font-size: 32px;
+  font-weight: 400;
+}
 .primary-button {
-  
+  background: var(--main-accent-color);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0px;
+  padding: 6px 12px;
 }
 
 /*Footer Navication*/
