@@ -21,7 +21,7 @@ body {
   padding: 0px;
 }
 main {
-  background: #eeeeee;
+  background: #fff;
   margin: 0px;
   padding: 0px;
 }
@@ -51,15 +51,35 @@ section.app-section {
   padding: 5px;
 }
 ul.app-list {
+  display: flex;
   list-style-type: none;
   margin: 0px 10px;
   padding: 0px;
 }
 .app-list-item {
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.15);
+  margin: 0px 10px 0px 0px ;
+  padding: 0px;
   
 }
 .app-list-item > a {
-  text-decoration:; 
+  align-items: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  justify-items: center;
+  margin: 0px;
+  padding: 5px 15px;
+  text-decoration: none; 
+}
+.app-list-item > a:hover {
+  color: var(--main-accent-color);
+  text-decoration: none; 
+}
+.app-list-item span.la {
+  font-size: 32px;
 }
 
 .primary-button {
