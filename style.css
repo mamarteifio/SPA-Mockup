@@ -11,6 +11,10 @@ body {
 }
 main {
   background: #eeeeee;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
+footer#nav-footer {
+  background: #ccc; 
+}
+footer#nav-footer
