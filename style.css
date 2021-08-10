@@ -83,7 +83,7 @@ footer#nav-footer > ul > li > a.active {
   box-shadow: 0px 10px 6px 3px rgba(0, 0, 0, 0.1);
   color: var(--main-accent-color);
 }
-footer#nav-footer > ul > li > a > i.la {
+footer#nav-footer > ul > li > a > span.la {
   font-size: 32px;
   margin: 0px;
   padding: 0px;
