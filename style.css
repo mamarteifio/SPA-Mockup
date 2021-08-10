@@ -1,3 +1,4 @@
+/*Document Styling*/
 html {
   margin: 0px;
   padding: 0px;
@@ -14,7 +15,21 @@ main {
   margin: 0px;
   padding: 0px;
 }
+
+/*Footer Navication*/
 footer#nav-footer {
   background: #ccc; 
 }
-footer#nav-footer
+footer#nav-footer>ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+footer#nav-footer>ul>li {
+  margin: 0px;
+  padding: 0px;
+}
+footer#nav-footer>ul>li>a {
+  margin: 0px;
+  padding: 12px;
+}
