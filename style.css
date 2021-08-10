@@ -25,6 +25,22 @@ main {
   padding: 0px;
 }
 
+/*Section Styling */
+section.screen-section {
+  margin: 0px;
+  padding: 12px;
+  outline: 1px solid magenta;
+}
+h2 {
+  color: black;
+  font-size: 40px;
+  margin: 5px 0px;
+  padding: 0px;
+}
+.primary-button {
+  
+}
+
 /*Footer Navication*/
 footer#nav-footer {
   background: #eee;
@@ -61,8 +77,8 @@ footer#nav-footer > ul > li > a {
 }
 footer#nav-footer > ul > li > a.active {
   background: white;
-  border-radius: 0px 0px 16px 16px;
-  box-shadow: 1px 0px 6px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 8px 6px 3px rgba(0, 0, 0, 0.1);
   color: var(--main-accent-color);
 }
 footer#nav-footer > ul > li > a > i.la {
