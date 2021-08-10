@@ -50,14 +50,16 @@ section.screen-section {
 section.app-section {
   padding: 5px;
 }
-.app-list {
-  
+ul.app-list {
+  list-style-type: none;
+  margin: 0px 10px;
+  padding: 0px;
 }
 .app-list-item {
   
 }
 .app-list-item > a {
-  
+  text-decoration:; 
 }
 
 .primary-button {
@@ -72,7 +74,7 @@ section.app-section {
   padding: 6px 12px;
 }
 .primary-button:hover {
-  background: ;
+  background: #2bc520;
   cursor: pointer;
 }
 
