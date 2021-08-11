@@ -153,7 +153,7 @@ footer#nav-footer > ul > li > a {
   border-top: 1px solid #fff;
   color: var(--disabled-color);
   display: flex;
-  font-size: 12px;
+  font-size: 14px;
   flex-direction: column;
   margin: 0px;
   outlin: 1px solid red;
@@ -170,7 +170,7 @@ footer#nav-footer > ul > li > a.active {
   color: var(--main-accent-color);
 }
 footer#nav-footer > ul > li > a > span.la {
-  font-size: 32px;
+  font-size: 36px;
   margin: 0px;
   padding: 0px;
 }
