@@ -44,10 +44,18 @@ h2 {
 /*Section Styling */
 section.screen-section {
   margin: 0px;
+  overflow: hidden;
   padding: 12px;
+  position: relative;
 }
 section.app-section {
+  box-sizing: border-box;
+  height: 100%;
   padding: 5px;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100%;
 }
 ul.app-list {
   display: flex;
