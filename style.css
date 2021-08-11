@@ -41,6 +41,11 @@ h2 {
   margin: 5px 0px;
   padding: 0px;
 }
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 10px 7px;
+}
 /*Section Styling */
 section.screen-section {
   margin: 0px;
@@ -61,7 +66,7 @@ ul.app-list {
   display: flex;
   list-style-type: none;
   margin: 0px 5px;
-  padding: 0px;
+  padding: 0px 0px 10px 0px;
 }
 .app-list-item {
   border-radius: 10px;
@@ -97,14 +102,14 @@ ul.app-list {
 .primary-button {
   background: var(--main-accent-color);
   border: none;
-  border-radius: 5px;
+  border-radius: 7px;
   box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.15);
   color: white;
   font-family: inherit;
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 400;
   margin: 0px;
-  padding: 6px 12px;
+  padding: 6px 24px;
 }
 .primary-button:hover {
   background: #2bc520;
@@ -156,9 +161,7 @@ footer#nav-footer > ul > li > a:hover {
 }
 footer#nav-footer > ul > li > a.active {
   background: white;
-  border: 1px solid #ddd;
   border-radius: 0px 0px 10px 10px;
-  border-top: none;
   box-shadow: 0px 10px 6px 3px rgba(0, 0, 0, 0.1);
   color: var(--main-accent-color);
 }
