@@ -1,8 +1,10 @@
 console.log("main.js is active");
 
 const NAV_ELEMENTS = {
-  USER: document.getElementById("navUser"),
+  APPS: document.getElementById("navUser"),
   ALERTS: document.getElementById("navAlerts"),
   SETTINGS: document.getElementById("navSettings"),
 }
+
+let currentView = NAV_ELEMENTS.APPS
 console.log(document.querySelector("#navUser"))
