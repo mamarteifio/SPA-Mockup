@@ -30,8 +30,8 @@ h1 {
   font-family: "Atkinson Hyperlegible", serif;
   font-size: 32px;
   font-weight: 400;
-  margin: 5px 0px;
-  padding: 0px;
+  margin: 5px 0px 0px 0px;
+  padding: 0px 5px;
 }
 h2 {
   color: black;

@@ -1,7 +1,7 @@
 console.log("main.js is active");
 
-var navElements = {
-  navUser: document.getElementById("navUser"),
-  navAlerts: document.getElementById("navAlerts"),
-  navSettings: document.getElementById("navSettings"),
+const NAV_ELEMENTS = {
+  USER: document.getElementById("navUser"),
+  ALERTS: document.getElementById("navAlerts"),
+  SETTINGS: document.getElementById("navSettings"),
 }
