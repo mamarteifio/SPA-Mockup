@@ -133,11 +133,13 @@ footer#nav-footer > ul > li {
 }
 footer#nav-footer > ul > li > a {
   align-items: center;
+  border-top: 1px solid #fff;
   color: var(--disabled-color);
   display: flex;
   font-size: 12px;
   flex-direction: column;
   margin: 0px;
+  outlin: 1px solid red;
   padding: 12px;
   text-decoration: none;
 }

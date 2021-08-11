@@ -5,3 +5,4 @@ const NAV_ELEMENTS = {
   ALERTS: document.getElementById("navAlerts"),
   SETTINGS: document.getElementById("navSettings"),
 }
+console.log(document.querySelector("#navUser"))
